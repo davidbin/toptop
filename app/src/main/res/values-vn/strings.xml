@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Top Top</string>
+    <string name="content_column">Content</string>
+    <string name="page_referrers">Referrers</string>
+    <string name="refresh_action">Refresh</string>
+    <string name="logout_action">Logout</string>
+    <string name="new_comment_action">New Comment</string>
+    <string name="page_menu">Menu Items</string>
+    <string name="page_comment">Comments</string>
+    <string name="page_categories">Categories</string>
+    <string name="page_new_comment">New Comment</string>
+    <string name="title_column">Title</string>
+    <string name="location_column">Location</string>
+    <string name="menu_column"></string>
+    <string name="date_column">Date</string>
+    <string name="category_column"></string>
+    <string name="error_loading_comments">Loading comments failed</string>
+    <string name="error_loading_menu">Loading menu items failed</string>
+    <string name="error_loading_categories">Loading categories failed</string>
+    <string name="no_users">No Users</string>
+    <string name="no_data">No Data</string>
+    <string name="no_menuitem">Selected category has no items</string>
+    <string name="no_comment">No comment for selected menu item</string>
+    <string name="button_new_comment">Post New Comment</string>
+    <string name="button_send">Send</string>
+    <string name="photo">Photo</string>
+    <string name="choose">Choose</string>
+    <string name="label_comment">Comment:</string>
+    <string name="label_rating">Rating:</string>
+    <string name="button_submit">Submit</string>
+    <string name="tag_comment_layout">layout_comment</string>
+    <!-- AuthenticatorActivity -->
+    <string name="label_email_address">Người sử dụng</string>
+    <string name="label_password">Mật mã</string>
+    <string name="label_sign_in">Đăng nhập</string>
+    <string name="label_register">Register</string>
+    <string name="label_fullname">Full Name</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="message_signing_in">Signing in…</string>
+    <string name="blank_field_warning">Please populate this field</string>
+    <string name="label_welcome">Welcome to Happy Garden Seafood</string>
+    <string name="message_bad_credentials">Email Address or Password is incorrect</string>
+    <string name="message_auth_failed">Please enter a valid password</string>
+    <string name="message_auth_failed_new_account">Please enter a valid email address &amp; password</string>
+    <string name="timer_running">Timer is running</string>
+    <string name="timer_is_paused">Timer is paused</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="title_timer">Timer</string>
+    <string name="home">Home</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+    <string name="title_home">Home</string>
+    <string name="signin_text">Sign in...</string>
+    <string name="load_welcome">HAPPY\nGARDEN SEAFOOD</string>
+
+</resources>

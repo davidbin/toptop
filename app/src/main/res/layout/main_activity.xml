@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+ <ViewFlipper android:id="@+id/viewFlipper"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+     <!-- The main content view -->
+    <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+     <LinearLayout
+         android:tag="@string/tag_comment_layout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <TextView
+             android:id="@+id/tv_signup"
+             style="@style/ShadowText"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/stripe_repeat"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="@string/page_new_comment"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/text"
+             />
+
+         <LinearLayout
+             android:tag="@string/tag_comment_layout"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="20dp"
+             android:orientation="vertical"
+             >
+
+
+             <TextView
+                 style="@style/ShadowText"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:paddingBottom="5dp"
+                 android:paddingLeft="5dp"
+                 android:paddingRight="5dp"
+                 android:text="@string/label_comment"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="@color/text" />
+             <EditText
+                 android:id="@+id/comment"
+                 android:layout_width="match_parent"
+                 android:layout_height="150dp"
+                 android:singleLine="false"
+                 android:gravity="top"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 style="@style/SignInEditText"
+                 android:completionThreshold="1"
+                 android:inputType="textMultiLine"
+                 />
+             <RatingBar
+                 android:id="@+id/ratingBar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:numStars="5"
+                 android:stepSize="1.0"
+                 android:rating="0.0"
+                 style="@android:style/Widget.Holo.RatingBar"
+                 android:layout_gravity="center_horizontal" />
+             <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/button_submit"
+                 android:id="@+id/btnSubmit"
+                 android:onClick="handleSubmit"
+                 android:background="@drawable/button_background_states"
+                 android:textColor="@color/text"
+                 android:layout_marginTop="5dp"
+                 android:textStyle="bold"
+
+                 android:layout_gravity="center_horizontal" />
+         </LinearLayout>
+     </LinearLayout>
+
+ </ViewFlipper>
+
+</android.support.v4.widget.DrawerLayout>
